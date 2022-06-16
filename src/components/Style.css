@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#Home h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Home .bigListsBox{
+    width: 80vw;
+    margin: auto;
+}
+
+#Home .bigList {
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    color: white;
+    background-color: #1b1d27;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Home .create {
+    display: flex;
+}
+
+#Home #newBigList {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+#Home #newBigList:last-child {
+    width: 20%;
+}
